@@ -14920,7 +14920,7 @@ end;
 
 function TBaseVirtualTree.GetDoubleBuffered: Boolean;
 begin
-  Result := True; // we do our own buffering
+  Result := {>>>True}False{<<<}; // we do our own buffering
 end;
 
 //----------------------------------------------------------------------------------------------------------------------
